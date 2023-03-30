@@ -11,14 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Quando&display=swap"
         rel="stylesheet">
+
+    
 </head>
 
 <body>
     <main class="home">
         <header class="header">
             <div class="navigation navigation--header">
-                <div><img class="img__reference img__reference--header" src="./img/Menu Rounded.svg"></img></div>
+                <div id="menu"><img class="img__reference img__reference--header" src="./img/Menu Rounded.svg"></img></div>
+
                 <div><img class="img__logo" src="./img/School logo.png"></img></div>
+
                 <div><img class="img__reference img__reference--header" src="./img/User.svg"></img></div>
             </div>
             <div class="header__description">
@@ -26,6 +30,21 @@
                 <h2 class="header__h2">San Francisco de asis</h2>
             </div>
         </header>
+
+        <!-- Modal navegacion -->
+        <div class="modal__menu">
+            <nav class="modal__nav">
+                <div><a class="item-nav" href="">Calidad</a></div>
+                <div><a class="item-nav" href="">Servicios</a></div>
+                <div><a class="item-nav" href="">Pastoral</a></div>
+                <div><a class="item-nav" href="">Ludicas</a></div>
+                <div><a class="item-nav" href="">Galeria</a></div>
+            </nav>
+            <div class="modal__contactUs">
+                <p>¿Tienes alguna otra pregunta?</p>
+                <a href="mailto:admisiones@ccb.edu.co" class="button button--yellow">Contactanos</a>
+            </div>
+        </div>
 
         <section class="welcome">
             <div class="container-img">
@@ -43,11 +62,11 @@
                     desarrollan los atributos de un ciudadano responsable.</p>
                 <div class="container-img container-img--aboutUs">
                     <h2 class="container-img__title">Docentes</h2>
-                    <img class="container__img container__img--details" src="./img/img__teachers.jpg" alt="">
+                    <img class="container__img-aboutUs container__img--details" src="./img/img__teachers.jpg" alt="">
                 </div>
                 <div class="container-img container-img--aboutUs">
                     <h2 class="container-img__title">Admisiones</h2>
-                    <img class="container__img container__img--details" src="./img/img_folders.jpg" alt="">
+                    <img class="container__img-aboutUs container__img--details" src="./img/img_folders.jpg" alt="">
                 </div>
             </article>
         </section>
@@ -114,4 +133,5 @@
     </main>
 </body>
 
+<script src="./script.js"></script> 
 </html>

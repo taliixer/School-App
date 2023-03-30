@@ -129,6 +129,35 @@ article {
   align-items: center;
   line-height: 30px;
 }
+.modal__menu{
+  background: var(--black50);
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+.modal__nav{
+  margin-block: 96px 51px;
+  padding-inline: 16px;
+}
+.modal__nav > div{
+  border-bottom: solid 1px var(--amarillo100);
+  width: 100%;
+  padding: 12px 0;
+}
+.item-nav{
+  margin-inline-start: 8px;
+  color: var(--whithe);
+}
+.modal__contactUs{
+  text-align: center;
+  color: var(--whithe);
+}
+.modal__contactUs > p{
+  margin-block-end: 32px;
+}
 .welcome {
   margin-block-end: 38px;
   display: flex;
@@ -137,11 +166,12 @@ article {
 }
 .container-img {
   width: 100%;
-  min-height: 212px;
+  height: 212px;
   margin-block-end: 42px;
 }
 .container__img {
   width: 100%;
+  height: 100%;
 }
 .button {
   padding: 10px 20px;
@@ -152,6 +182,11 @@ article {
   color: var(--whithe);
   background-color: var(--azul100);
 }
+.button--yellow{
+  font-weight: 600;
+  color: var(--black100);
+  background-color: var(--amarillo10);
+}
 .about-us {
   margin: 0 16px 70px;
 }
@@ -159,6 +194,7 @@ article {
   align-items: center;
 }
 .about-us__title {
+  text-align: center;
   min-width: 200px;
   width: 70%;
   margin-block-end: 24px;
@@ -168,14 +204,21 @@ article {
   margin-block-end: 60px;
 }
 .container-img--aboutUs {
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin: 0;
+  margin: 0 0 26px;
+}
+.container__img-aboutUs{
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
 }
 .container-img__title {
   position: absolute;
   z-index: 2;
-  top: calc(50% - 1.7rem);
-  left: 10%;
+  top: calc(50% - 1.6999999999999993rem);
+  left: 25%;
   color: var(--whithe);
 }
 .container__img--details {
@@ -263,6 +306,7 @@ border-radius: 6px;
 .contact-us__contact-means {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
   margin-block-end: 60px;
 }

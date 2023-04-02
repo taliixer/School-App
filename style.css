@@ -132,11 +132,26 @@ article {
 .modal__menu{
   background: var(--black50);
   position: fixed;
+  z-index: 3;
   top: -100vh;
   left: 0;
   height: 100vh;
   width: 100vw;
   transition: all .5s;
+}
+.modal__close{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+.modal__close > span{
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./img/arrow_left.svg);
+  height: 20px;
+  width: 20px;
 }
 .modal__nav{
   margin-block: 96px 51px;
@@ -253,6 +268,9 @@ article {
   align-items: center;
   margin-block-end: 66px;
   gap: 16px;
+}
+.social__container  :hover{
+  cursor: pointer;
 }
 .container-map {
   width: auto;

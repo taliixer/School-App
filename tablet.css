@@ -1,0 +1,100 @@
+.img__reference--header{
+    display: none;
+}
+.header{
+    margin: 0 0 32px;
+    padding: 32px 32px 55px;
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navigation--header{
+    margin-block-end: 58px;
+}
+.navigation__header-tablet{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    max-width: 550px;
+}
+.navigation__menu{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation__menu > li{
+    color: var(--whithe);
+}
+.header__description{
+    margin-block-end: 68px;
+    color: var(--whithe);
+}
+.header__botones{
+    min-width: 108px;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.header__button--main{
+    color: white;
+    background-color: var(--azul100);
+}
+.header__button--secondary{
+    color: var(--azul100);
+    border: solid 1px var(--azul100);
+    background-color: transparent;
+}
+.welcome{
+    display: none;
+}
+.about-us__container-story > h3{
+    display: none;
+}
+video{
+    width: 360px;
+    border-radius: 10px;
+}
+.video{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-block-end: 32px;
+    margin-block-end: 40px;
+    border-bottom: dashed 3px gray;
+}
+.about-us {
+    margin: 0 32px 70px;
+}
+.about-us__description{
+    margin-block-end: 32px;
+}
+.about-us__details{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.container-img--aboutUs{
+    width: 258px;
+}
+.container-img{
+    height:auto;
+}
+.information__news {
+    padding: 32px 32px;
+}
+.social__logos {
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+}
+.container-map{
+    max-width: 780px;
+}
+.contact-us__form {
+    max-width: 550px;
+    margin: 0 auto;
+}

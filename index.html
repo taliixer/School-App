@@ -11,23 +11,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Quando&display=swap"
         rel="stylesheet">    
+    <link rel="stylesheet" media="(min-width: 600px)" href="tablet.css" />
+
 </head>
 
 <body>
     <main class="home">
         <header class="header">
+
             <div class="navigation navigation--header">
                 <div id="menu"><img class="img__reference img__reference--header" src="./img/Menu Rounded.svg"></img></div>
 
                 <div><img class="img__logo" src="./img/School logo.png"></img></div>
 
                 <div><img class="img__reference img__reference--header" src="./img/User.svg"></img></div>
+
+                <nav class="navigation__header-tablet">
+                    <ul class="navigation__menu">
+                        <li>Calidad</li>
+                        <li>Servicios</li>
+                        <li>Pastoral</li>
+                        <li>Ludicas</li>
+                        <li>Galeria</li>
+                    </ul>
+                </nav>
+    
             </div>
+
             <div class="header__description">
                 <h1 class="header__h1">Bienvenido</h1>
                 <h2 class="header__h2">San Francisco de asis</h2>
             </div>
+
+            <div class="header__botones">
+                <a href="" class="button header__button--main">Iniciar Sesion</a>
+                <a href="" class="button header__button--secondary">Admisiones</a>
+            </div>
         </header>
+
+
 
         <!-- Modal navegacion -->
         <div class="modal__menu">
@@ -59,13 +81,20 @@
                     experiencias de aprendizaje de nuestros estudiantes, desde los más pequeños hasta los más grandes.
                     Al comprender conceptos y problemas significativos, exploran perspectivas internacionales y
                     desarrollan los atributos de un ciudadano responsable.</p>
-                <div class="container-img container-img--aboutUs">
-                    <h2 class="container-img__title">Docentes</h2>
-                    <img class="container__img-aboutUs container__img--details" src="./img/img__teachers.jpg" alt="">
+
+                <div class="video">
+                    <video src="https://carontestudio.com/img/f4.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg"></video>
                 </div>
-                <div class="container-img container-img--aboutUs">
-                    <h2 class="container-img__title">Admisiones</h2>
-                    <img class="container__img-aboutUs container__img--details" src="./img/img_folders.jpg" alt="">
+
+                <div class="about-us__details">
+                    <div class="container-img container-img--aboutUs">
+                        <h2 class="container-img__title">Docentes</h2>
+                        <img class="container__img-aboutUs container__img--details" src="./img/img__teachers.jpg" alt="">
+                    </div>
+                    <div class="container-img container-img--aboutUs">
+                        <h2 class="container-img__title">Admisiones</h2>
+                        <img class="container__img-aboutUs container__img--details" src="./img/img_folders.jpg" alt="">
+                    </div>
                 </div>
             </article>
         </section>
